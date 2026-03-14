@@ -46,7 +46,7 @@ This project explores **end-to-end document processing** using PaddleOCR's lates
   </tr>
   <tr>
     <td><img src="images/outputs/fill_in_the_blanks_output.png" width="220"/></td>
-    <td><img src="images/samples/attention_table_2_output.png" width="220"/></td>
+    <td><img src="images/outputs/attention_table_2_output.png" width="220"/></td>
     <td><img src="images/samples/bank_statement.png" width="220"/></td>
   </tr>
 </table>
