@@ -1,0 +1,29 @@
+# Core deep learning framework
+# For CPU:
+paddlepaddle>=3.0.0
+# For GPU (CUDA 12.6), comment the above and use:
+# paddlepaddle-gpu==3.0.0
+
+# PaddleOCR (includes layout detection, text det/rec)
+paddleocr[all]>=2.9.0
+
+# LangChain agent framework
+langchain>=0.3.0
+langchain-core>=0.3.0
+langchain-openai>=0.2.0
+langchain-community>=0.3.0
+langchain-text-splitters>=0.3.0
+
+# OpenAI SDK (used by langchain-openai)
+openai>=1.0.0
+
+# Image processing
+opencv-contrib-python>=4.9.0
+Pillow>=10.0.0
+
+# Scientific computing
+numpy>=1.26.0
+matplotlib>=3.8.0
+
+# Environment variable management
+python-dotenv>=1.0.0
